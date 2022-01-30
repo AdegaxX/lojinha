@@ -11,7 +11,8 @@ header {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    overflow-y: hidden;
+    overflow-x: hidden;
+
 }
 
 #text {
@@ -124,6 +125,7 @@ nav {
 .mobile-menu {
     cursor: pointer;
     display: none;
+    margin-left: 90%;
 }
 
 .mobile-menu div {
