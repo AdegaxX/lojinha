@@ -164,18 +164,20 @@ nav {
     }
     .mobile-menu {
         display: block;
+        overflow-x: hidden;
+
     }
 }
 
 .nav-list.active {
     transform: translateX(0);
+    overflow-x: hidden;
 }
 
 @keyframes navLinkFade {
     from {
         opacity: 0;
         transform: translateX(50px);
-        overflow-x: hidden;
     }
     to {
         opacity: 1;
