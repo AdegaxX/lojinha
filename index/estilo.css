@@ -109,6 +109,7 @@ nav {
     background: rgb(0, 1, 50);
     height: 8vh;
     z-index: 10000;
+    overflow-x: hidden;
 }
 
 .nav-list {
@@ -134,10 +135,14 @@ nav {
     background: #fff;
     margin: 8px;
     transition: 0.3s;
+    overflow-x: hidden;
 }
 
 @media (min-width: 9px) {
     body {
+        overflow-x: hidden;
+    }
+    header {
         overflow-x: hidden;
     }
     .nav-list {
@@ -170,6 +175,7 @@ nav {
     from {
         opacity: 0;
         transform: translateX(50px);
+        overflow-x: hidden;
     }
     to {
         opacity: 1;
