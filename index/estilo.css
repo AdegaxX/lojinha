@@ -54,6 +54,7 @@ a:hover {
 
 body {
     background-color: rgb(0, 1, 50);
+    overflow-x: hidden;
 }
 
 body section { /* Centralizando as imagens/section */
